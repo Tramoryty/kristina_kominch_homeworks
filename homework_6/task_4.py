@@ -5,4 +5,6 @@ i = 1
 print(i)
 while i < 512:
     i *= 2
+    if i == 8:
+        continue
     print(i)
