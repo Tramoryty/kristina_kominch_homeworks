@@ -4,5 +4,9 @@
 
 ten_digit_number = input('Введите десятизначное число: ')
 for digit in ten_digit_number:
-    if int(digit) % 2 == 0:
-        print(digit)
+    if len(ten_digit_number) == 10:
+        if int(digit) % 2 == 0:
+            print(digit)
+    else:
+        print('Вы ввели не десятизначное число')
+        break

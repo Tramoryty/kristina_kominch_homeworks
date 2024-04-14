@@ -4,3 +4,5 @@
 figure = 4
 number = figure * 100 + figure * 10 + figure
 print(number)
+
+print(4 ** 4 ** 4)
