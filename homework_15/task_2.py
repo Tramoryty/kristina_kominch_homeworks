@@ -21,4 +21,4 @@ data = [
     {'Фамилия': 'Сидоров', 'Возраст': 21, 'Город': 'Москва'}
 ]
 
-dict_to_csv(data, 'task_2_from_lesson_15.csv')
+dict_to_csv(data, 'task_2.csv')
